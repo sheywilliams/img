@@ -10,44 +10,72 @@
 <style>
     body {
         font-family: "Neue Montreal", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        /* background-color: rgb(11, 11, 21); */
+        background-color: rgb(11, 11, 21);
     }
+
     section {
-        width: 1000px ;
+        width: 1000px;
         height: 400px;
-        border: 1px solid red;
+        /* border: 1px solid red; */
         margin-left: 120px;
         margin-top: 100px;
-        background-color: rgb(20, 5, 45);
-        border-radius: 8px 8px;
+        border-radius: 8px 8px ;
 
     }
-    img {
-        height:400px;
-        width:50%;
+
+    .img {
+        height: 380px;
+        width: 50%;
         border-top-right-radius: 8px;
         border-bottom-right-radius: 8px;
         margin-left: 50%;
-        margin-top: -150px;
+        margin-top: -380px;
         /* position: fixed; */
+        background-color: purple;
+        opacity: 0.3;
+
     }
+
     h4 {
-        font-weight: 400;
+        font-weight: bold;
         font-size: 30px;
         /* text-align: center; */
         color: white;
         margin-left: 70px;
 
     }
-    h6 {
-        color:rgb(213, 224, 213);
-        margin-left: 70px;
-        font-size: 13px;
-        
-    }
-    
 
+    h6 {
+        color: rgb(213, 224, 213);
+        margin-left: 70px;
+        font-size: 15px;
+    }
+
+    .div2 {
+        /* border: 1px solid  red; */
+        display: flex;
+        /* width: 100px;
+        height: 100px; */
+        /* align-items: center; */
+        gap: 40px;
+        margin-left: 70px;
+
+
+    }
+
+    h5 {
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(213, 224, 213);
+    }
+    .div1{
+        padding: 16px;
+        background-color: rgb(20, 5, 45);
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
 </style>
+
 <body>
     <section>
         <div class="div1">
@@ -55,11 +83,23 @@
                 Get <span style="color: purple;">insights</span> that help<br>your business grow.
             </h4>
             <h6>
-                Discover the benefits of data analytics and make <br> better decisions regarding revenue, customer <br> experience, and overall efficiency.
+                Discover the benefits of data analytics and make <br> better decisions regarding revenue, customer <br>
+                experience, and overall efficiency.
             </h6>
+            <div class="div2">
+
+                <h5> 10k+ <br> <span style="font-size:13px; font-weight: normal;">COMPANIES</span></h5>
+
+
+                <h5> 314 <br><SPan style="font-size: 13px; font-weight: normal;">TEMPLATES</SPan></h5>
+
+
+                <h5> 12M+ <br> <span style="font-size: 13px; font-weight: normal;">QUERIES</span> </h5>
+
+            </div>
         </div>
         <div class="img">
-            <img src="./images/image-header-desktop.jpg">
+            <img src="./images/image-header-desktop.jpg" height="100%" width="100%" style="border-top-right-radius: 8px; border-bottom-right-radius: 8px;">
         </div>
     </section>
 
